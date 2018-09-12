@@ -1,5 +1,3 @@
-package queue;
-
 interface FifoQueue <T> {
     void enqueue(T item);// never fails
     T dequeue();         // returns null if empty,

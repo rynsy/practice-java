@@ -1,5 +1,3 @@
-package queue;
-
 public class Tester {
     public static void main(String[] args) {
         MyGenericQueue<String> test = new MyGenericQueue<String>();

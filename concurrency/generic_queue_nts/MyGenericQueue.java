@@ -1,10 +1,8 @@
-package queue;
-
 /** Implementation of a FIFO Queue of Items.
 *  Uses a singly-linked list to keep contents.
 *  @NOTTHREADSAFE
 */
-class MyGenericQueue <T> implements FifoQueue <T>{
+public class MyGenericQueue <T> implements FifoQueue <T>{
 
    private static class Element <T>{ // this needs to be static!
       /* this is really just like a C/C++ struct */
